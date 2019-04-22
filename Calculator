@@ -1,0 +1,39 @@
+print("PIAIC Calculator")
+
+#input the numbers
+
+first_number = int(input("Enter your first number : "))
+second_number = int(input("Enter your second number : "))
+
+#Select the operands
+
+print("please select your operator")
+
+#Values of operands
+
+print('"+" for Addition')
+print('"-" for Subtraction')
+print('"*" for Multiplication')
+print('"/" for Division')
+Operator = input("Please select your operator : ")
+
+#Defined the result
+
+result = 0
+
+#if & elif condiotions of operands
+
+if Operator == "+":
+   result = first_number + second_number
+elif Operator == "-":
+   result = first_number - second_number
+elif Operator == "*":
+   result = first_number * second_number
+elif Operator == "/":
+   result = first_number / second_number
+else:
+  print("Invalid Operator")
+
+#final result
+
+print(f"Result : {result}")
