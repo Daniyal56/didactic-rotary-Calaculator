@@ -1,0 +1,17 @@
+print("Human Resources")
+#i Getting input from Users
+first_name = input("Enter your first name : ")
+last_name = input("Enter your last name : ")
+your_Qualification : input("Your Qualification : ")
+Your_city : input("Enter your city : ")
+
+# Value defined
+city = 0
+
+# if & else statement
+if city == "Karachi":
+   print("Congratulation, you're selected")
+
+else:
+  print("We're sorry")
+
